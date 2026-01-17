@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог фильмов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="head">
+    <div class="header">
+        Каталог фильмов
+        <button class="tema-knopka">🌙</button>
+    </div>
+
+    <div class="forma">
+        <div class="stroka">
+            <label>Название фильма:</label>
+            <input type="text" class="ism-input" placeholder="Введите название фильма...">
+        </div>
+
+        <div class="stroka">
+            <label>Жанр:</label>
+            <select class="zhanr-input">
+                <option value="">Выберите жанр</option>
+                <option>Фантастика</option>
+                <option>Драма</option>
+                <option>Боевик</option>
+                <option>Триллер</option>
+            </select>
+        </div>
+
+        <div class="stroka">
+            <label>Рейтинг:</label>
+            <input type="number" class="reyting-input" min="0" max="10">
+            <button class="dobavit-knopka">Добавить фильм</button>
+        </div>
+    </div>
+
+    <div class="spisok">
+        <h2>Список фильмов</h2>
+        <ul class="spisok-ul"></ul>
+        <div class="kolichestvo">
+            Всего фильмов: <span class="schet">0</span>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

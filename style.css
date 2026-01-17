@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    background-color: green;
+}
+
+.head {
+    width: 900px;
+    margin: auto;
+    background: #eef3fb;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+.header {
+    background: rgb(3, 199, 3);
+    color: #fff;
+    padding: 20px;
+    font-size: 26px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.forma {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.stroka {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.stroka label {
+    width: 150px;
+    font-weight: bold;
+}
+
+.stroka input,
+.stroka select {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dobavit-knopka {
+    background: linear-gradient(#5fae6e,#3e8f4f);
+    color: #fff;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.spisok {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.spisok-ul {
+    list-style: none;
+}
+
+.spisok-ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.film-img {
+    width: 50px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.ism {
+    font-weight: bold;
+    color: #3867b8;
+}
+
+.zvezda {
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.udalit {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.kolichestvo {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.tema-knopka {
+    margin-left: 20px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #fff;
+    color: #2f4f77;
+    font-size: 16px;
+}
+
+body.dark {
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+body.dark .header,
+body.dark .forma,
+body.dark .spisok {
+    background-color: #1e293b;
+}
+
+body.dark input,
+body.dark select {
+    background-color: #0f172a;
+    color: #e5e7eb;
+    border: 1px solid #334155;
+}
